@@ -1,0 +1,339 @@
+html{
+    background-color: #383838;
+}
+
+body{
+    width: 1920px;
+    height: 5650.09px;
+    top: 100px;
+    left: 5708px;
+    background-color: lightgray;
+    /* background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat; */
+    color: black;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+
+}
+ul li{
+    list-style-type: none;
+
+}
+
+.container{
+    max-width: 1066px ;
+    margin: 0 auto;
+    padding: 0 15px;
+    /* background-color: whitesmoke; */
+}
+.baner_wrap{
+    position: relative;
+    padding-top: 10px;
+    /* background-color: whitesmoke; */
+    
+}
+.baner_wrap::before{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 188px;
+    height: 211px;
+    background: url(/img/svg/list_1.svg)100% 0% no-repeat;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: whitesmoke;    */
+}
+.Honey_logo-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+.nav_main{
+    margin: 0 140px 0 auto;
+
+}
+.nav_main-list{
+    display: flex;
+    gap: 10px;
+}
+.cart_reset{
+    position: relative;
+    width: 18px ;
+    height: 25px;
+    padding-right: 8px;
+    justify-content: space-between;
+    align-items: center;
+    background: url(/img/svg/karzina_1.svg) 50% 100% no-repeat;
+    max-width: 100%;
+    max-height: 100%;
+}
+.knopka_reset{
+    display: flex;
+    height: 50px;
+    padding: 15px 25.2px 16px 38px;
+    justify-content: flex-end;
+    align-items: center;
+    background: #D3A863;
+    color: white;
+}
+.Honey_section{
+    position: relative;
+    overflow: hidden;
+    font-family: Open Sans;
+    font-size: 100px;
+    font-style: normal;
+   
+}
+.Honey_subtitle{
+    font-size: 25px;
+}
+.Honey_praim{
+    width: 150px;
+    height: 50px;
+    background: #C74817;
+    font-size: 20px;
+    padding: 16px 21px 16px 38px;
+    color: white;
+}
+.Honey_img{
+    position: absolute;
+    width: 57%;
+    height: 83%;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    /* background: url(<path-to-image>), whitesmoke 0px no-repeat; */
+    /* background-color: whitesmoke; */
+}
+.Honey_hon{
+    position: absolute;
+    flex-shrink: 0;
+    width: 30%;
+    height: 20%;
+    top: 0;
+    right: 0;
+    /* background-color: whitesmoke; */
+ 
+}
+.chat_1{
+    display: flex;
+    padding: 14.984px 21.094px 14.984px 22px;
+    align-items: flex-start;
+    gap: 8px;
+    margin-top: -10px;
+}
+/* News*/
+.section_title{
+    font-size: 40px;
+}
+.News_subtitle{
+    font-size: 25px;
+}
+.News_section{
+    /* background-color: whitesmoke; */
+    
+}
+.News_img{
+    width: 50%;
+    height: 83%; 
+    /* background-color: whitesmoke; */
+}
+
+.about_img{
+    /* flex-shrink: 0; */
+    position: relative;
+    width: 421.41px;
+    height: 826px;
+    left: 877.98px;
+    top: -900px;
+      
+}
+
+
+.section_title_1{
+    display: block;
+    margin-bottom: 35px;
+    justify-content: right;
+    font-weight: 600;
+    font-size: 136px;
+
+ }
+ .section_subtitle{
+    color: #C74817;
+    justify-content: right;
+  
+   
+ }
+ .about_text{
+    margin-bottom: 35px;
+    justify-content: right;
+}
+.chat_1{
+    position: absolute;
+    right:  0;
+    bottom: 0;
+    /* background-color: whitesmoke; */
+}
+.Products_section{
+    /* padding-bottom: 120px; */
+    text-align: center;
+}
+.products_wrap{
+    display: flex;
+    height: 855.172px;
+    /* padding: 80px 310px 10px 310px; */
+    justify-content: center;
+    align-items: center;
+   /* display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 42px;*/
+    background: url(<path-to-image>), whitesmoke 0px -72.414px / 100% 116.936% no-repeat;
+}
+.section_subtitle_c{
+    font-size: 25px;
+    /* background-color: whitesmoke; */
+    color: #131313;
+}
+.Products_img{
+    width: 417.983px;
+    height: 417.983px;
+}
+.Products_name{
+    display: flex;
+    width: 198.246px;
+    height: 36px;
+    flex-direction: column;
+    justify-content: center;
+    color: #131313;
+
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32.006px; /* 123.1% */
+    text-transform: uppercase;
+}
+.Products_price{
+    display: flex;
+    color: #C74817;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    justify-content:center;
+    font-weight: 700;
+    line-height: 30px; /* 136.364% */
+}
+.Products_text{
+    display: flex;
+    width: 357.716px;
+    height: 45px;
+    justify-content: center;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+}
+.Products_reset{
+    display: flex;
+    width: 105.193px;
+    height: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 23px;
+    
+
+}
+.img{
+    display: block;
+    width: 18.328px;
+    height: 28px;
+    flex-shrink: 0;
+
+}
+.Julia_section{
+    padding: 0px 0px;
+}
+.Julia_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.Julia_img{
+    width: 50%;
+}
+.Julia_text{
+    font-size: 25px;
+}
+.Julia_title{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+.Gallery_wrap{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.Gallery_section-title{
+ color: #131313;
+text-align: center;
+font-family: Open Sans;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 30.008px; /* 114.6% */
+
+}
+.Gallery_section-subtitle{
+    color: #383838;
+text-align: center;
+font-family: Open Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: 30.006px; /* 166.7% */
+}
+.Sing_subtitle{
+    display: flex;
+    width: 477.605px;
+    height: 65px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55.008px; /* 114.6% */
+    text-transform: uppercase;
+}
+.Sing_text{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+.Sing{
+    display: flex;
+    justify-content: center;
+
+
+}
+.sing_wrap{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+
+}
